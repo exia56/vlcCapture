@@ -32,7 +32,7 @@ namespace testWMPGetVideoInfo
             {
                 file = filePath;
             }
-            string thumbnailPath = @"C:/dslib/media/anything.png";
+            string thumbnailPath = @".\anything.png";
             FileStream fs = new FileStream(thumbnailPath, FileMode.OpenOrCreate);
             VideoThumbnail vt = new VideoThumbnail(file);
             MemoryStream ms = new MemoryStream();
